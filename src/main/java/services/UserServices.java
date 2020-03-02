@@ -12,6 +12,8 @@ import java.util.List;
 
 
 public class UserServices {
+    private static final String REG_LINK = "http://localhost:8080";
+
     private String errorMessage;
     private boolean hasError;
     private boolean remember;
@@ -82,7 +84,8 @@ public class UserServices {
             MailSendService mailSendService = new MailSendService();
             mailSendService.sendEmail(user.getEmail(),
                     "Registration",
-                    "You have successfully registered.\n");
+                    "You have successfully registered. \n" +
+                    REG_LINK);
         }
 
         req.setAttribute("errorMessage", errorMessage);

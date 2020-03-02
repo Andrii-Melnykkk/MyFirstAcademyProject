@@ -1,0 +1,4 @@
+
+asquid:UselessImportCheck"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ8ÂŽ”¾‰.
+Nsquid:S2065"0Remove the "transient" modifier from this field.(À¥Ä…8ÂŽ”¾‰.
+Msquid:S2065"0Remove the "transient" modifier from this field.(Ö¹—8ÂŽ”¾‰.

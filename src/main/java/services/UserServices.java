@@ -85,7 +85,7 @@ public class UserServices {
             mailSendService.sendEmail(user.getEmail(),
                     "Registration",
                     "You have successfully registered. \n" +
-                    REG_LINK);
+                            REG_LINK);
         }
 
         req.setAttribute("errorMessage", errorMessage);

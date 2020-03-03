@@ -92,7 +92,7 @@ public class UserServices {
         req.setAttribute("user", user);
     }
 
-    public void authenticationUserService(HttpServletRequest req, HttpServletResponse resp) {
+    public void validateUserService(HttpServletRequest req, HttpServletResponse resp) {
         String userLogin = req.getParameter("login");
         String userPassword = req.getParameter("password");
         String rememberMe = req.getParameter("rememberMe");

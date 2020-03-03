@@ -32,7 +32,7 @@ public class LoginController extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         UserServices userServices = new UserServices();
-        userServices.authenticationUserService(req, resp);
+        userServices.validateUserService(req, resp);
         if (userServices.hasError()) {
             RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/WEB-INF/view/login.jsp");
             try {

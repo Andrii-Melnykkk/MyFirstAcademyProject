@@ -27,8 +27,6 @@ Y
 )src/main/java/filters/EncodingFilter.java,f\2\f2601fe480f289cdd6cfe01a73ede75aa7232305
 P
  src/main/java/utils/DBUtils.java,d\9\d94cc8ed90fae3a02207e3682e32db50048650fc
-N
-src/main/java/test/TestDB.java,1\8\188b613bd4c3a6d623d29d48c210e2afacbdbc90
 ]
 -src/main/java/controller/LoginController.java,d\9\d915cdbef77c656eebfb7602fce5b0a8962b2b51
 7
@@ -83,5 +81,3 @@ j
 :src/main/webapp/WEB-INF/view/advertisementListApproved.jsp,7\2\729643c2ada0f298594496fc823d1ba758888be8
 Z
 *src/main/webapp/WEB-INF/view/awaitPage.jsp,b\1\b1b017a33e515d7df39a263d195502d9d68469e6
-R
-"src/main/java/utils/MailUtils.java,4\b\4b3c2b04296a248ad30317e45b0893f2dd1bac5a
